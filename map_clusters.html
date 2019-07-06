@@ -1,0 +1,1508 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_c6e9622cfa5b4459a1e157c3aa8c41bd {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_c6e9622cfa5b4459a1e157c3aa8c41bd" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_c6e9622cfa5b4459a1e157c3aa8c41bd = L.map(
+        'map_c6e9622cfa5b4459a1e157c3aa8c41bd', {
+        center: [31.2252985, 121.4890497],
+        zoom: 11,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_7378a499bdb541748dda68f3b6ab4b58 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_c6e9622cfa5b4459a1e157c3aa8c41bd);
+    
+            var circle_marker_7e069c8e6646402797c98158c7b48925 = L.circleMarker(
+                [31.29890000000006, 121.15760000000012],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c6e9622cfa5b4459a1e157c3aa8c41bd);
+            
+    
+            var popup_fff2f9e67ce04568abf925c4778cf0df = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7879d19ca1fc4568b831e3f4d53b510b = $(`<div id="html_7879d19ca1fc4568b831e3f4d53b510b" style="width: 100.0%; height: 100.0%;">Anting Cluster 0</div>`)[0];
+                popup_fff2f9e67ce04568abf925c4778cf0df.setContent(html_7879d19ca1fc4568b831e3f4d53b510b);
+            
+
+            circle_marker_7e069c8e6646402797c98158c7b48925.bindPopup(popup_fff2f9e67ce04568abf925c4778cf0df)
+            ;
+
+            
+        
+    
+            var circle_marker_9449dac77f564991a804bd0e2ed2ab3a = L.circleMarker(
+                [31.22222000000005, 121.45806000000005],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c6e9622cfa5b4459a1e157c3aa8c41bd);
+            
+    
+            var popup_98d9d86d051942a49761ebf3a0831774 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1d56471865f74fd4bcf5dda316a3b33f = $(`<div id="html_1d56471865f74fd4bcf5dda316a3b33f" style="width: 100.0%; height: 100.0%;">Qiantan International Business Zone (Shanghai) Cluster 0</div>`)[0];
+                popup_98d9d86d051942a49761ebf3a0831774.setContent(html_1d56471865f74fd4bcf5dda316a3b33f);
+            
+
+            circle_marker_9449dac77f564991a804bd0e2ed2ab3a.bindPopup(popup_98d9d86d051942a49761ebf3a0831774)
+            ;
+
+            
+        
+    
+            var circle_marker_33200431f8ee45839238f381514ff4c7 = L.circleMarker(
+                [31.22222000000005, 121.45806000000005],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c6e9622cfa5b4459a1e157c3aa8c41bd);
+            
+    
+            var popup_9a07a60420b7437abf0708b9998da08b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b5493418eef44116971b48f9a0696fab = $(`<div id="html_b5493418eef44116971b48f9a0696fab" style="width: 100.0%; height: 100.0%;">Putuo District, Shanghai Cluster 0</div>`)[0];
+                popup_9a07a60420b7437abf0708b9998da08b.setContent(html_b5493418eef44116971b48f9a0696fab);
+            
+
+            circle_marker_33200431f8ee45839238f381514ff4c7.bindPopup(popup_9a07a60420b7437abf0708b9998da08b)
+            ;
+
+            
+        
+    
+            var circle_marker_f437cc9ea50e4a01a0bc31b941dc4de6 = L.circleMarker(
+                [31.235130000000026, 121.52759000000003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c6e9622cfa5b4459a1e157c3aa8c41bd);
+            
+    
+            var popup_fd10429824a242f59ac55e59716fd3d9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_06ceeb8f34414692842454e18b73e65b = $(`<div id="html_06ceeb8f34414692842454e18b73e65b" style="width: 100.0%; height: 100.0%;">Pudong Cluster 0</div>`)[0];
+                popup_fd10429824a242f59ac55e59716fd3d9.setContent(html_06ceeb8f34414692842454e18b73e65b);
+            
+
+            circle_marker_f437cc9ea50e4a01a0bc31b941dc4de6.bindPopup(popup_fd10429824a242f59ac55e59716fd3d9)
+            ;
+
+            
+        
+    
+            var circle_marker_6f59e13ea688428895f829f7656b018b = L.circleMarker(
+                [31.22222000000005, 121.45806000000005],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c6e9622cfa5b4459a1e157c3aa8c41bd);
+            
+    
+            var popup_fd347c40d045420da8503560cf7e6669 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6b62cf56de4440aa838010ffc0c57a85 = $(`<div id="html_6b62cf56de4440aa838010ffc0c57a85" style="width: 100.0%; height: 100.0%;">Nanshi District, Shanghai Cluster 0</div>`)[0];
+                popup_fd347c40d045420da8503560cf7e6669.setContent(html_6b62cf56de4440aa838010ffc0c57a85);
+            
+
+            circle_marker_6f59e13ea688428895f829f7656b018b.bindPopup(popup_fd347c40d045420da8503560cf7e6669)
+            ;
+
+            
+        
+    
+            var circle_marker_0ebf93c5b97d4b7885f7b9430bccf969 = L.circleMarker(
+                [31.20861000000008, 121.60889000000009],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c6e9622cfa5b4459a1e157c3aa8c41bd);
+            
+    
+            var popup_428e6882d48e49b8ae733a02c102a347 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ffd7f901b51543f39c065a1e8917132c = $(`<div id="html_ffd7f901b51543f39c065a1e8917132c" style="width: 100.0%; height: 100.0%;">Zhangjiang Town Cluster 0</div>`)[0];
+                popup_428e6882d48e49b8ae733a02c102a347.setContent(html_ffd7f901b51543f39c065a1e8917132c);
+            
+
+            circle_marker_0ebf93c5b97d4b7885f7b9430bccf969.bindPopup(popup_428e6882d48e49b8ae733a02c102a347)
+            ;
+
+            
+        
+    
+            var circle_marker_fef447f420ef4166a213578cc9b2c044 = L.circleMarker(
+                [31.22222000000005, 121.45806000000005],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c6e9622cfa5b4459a1e157c3aa8c41bd);
+            
+    
+            var popup_23bd90bc63f44ec5908fdb2ce693918b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2f51d497d51f45e8b9468abc7f89b68b = $(`<div id="html_2f51d497d51f45e8b9468abc7f89b68b" style="width: 100.0%; height: 100.0%;">Luodian, Shanghai Cluster 0</div>`)[0];
+                popup_23bd90bc63f44ec5908fdb2ce693918b.setContent(html_2f51d497d51f45e8b9468abc7f89b68b);
+            
+
+            circle_marker_fef447f420ef4166a213578cc9b2c044.bindPopup(popup_23bd90bc63f44ec5908fdb2ce693918b)
+            ;
+
+            
+        
+    
+            var circle_marker_d1afd6543e09416ab2d131530caf104b = L.circleMarker(
+                [31.22222000000005, 121.45806000000005],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c6e9622cfa5b4459a1e157c3aa8c41bd);
+            
+    
+            var popup_40cb84f07e794c0ca82fa328fd5167f9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_cb29aca04077424288ab2c15652dcbfc = $(`<div id="html_cb29aca04077424288ab2c15652dcbfc" style="width: 100.0%; height: 100.0%;">Koreatown, Shanghai Cluster 0</div>`)[0];
+                popup_40cb84f07e794c0ca82fa328fd5167f9.setContent(html_cb29aca04077424288ab2c15652dcbfc);
+            
+
+            circle_marker_d1afd6543e09416ab2d131530caf104b.bindPopup(popup_40cb84f07e794c0ca82fa328fd5167f9)
+            ;
+
+            
+        
+    
+            var circle_marker_575c8bb582584d9686547992056a84d0 = L.circleMarker(
+                [31.22222000000005, 121.45806000000005],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c6e9622cfa5b4459a1e157c3aa8c41bd);
+            
+    
+            var popup_935bf92d27ca4a7bb80faf0a5504eac6 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_59bdb08a66064606bc3e3b0e8534f9f8 = $(`<div id="html_59bdb08a66064606bc3e3b0e8534f9f8" style="width: 100.0%; height: 100.0%;">Tianzifang Cluster 0</div>`)[0];
+                popup_935bf92d27ca4a7bb80faf0a5504eac6.setContent(html_59bdb08a66064606bc3e3b0e8534f9f8);
+            
+
+            circle_marker_575c8bb582584d9686547992056a84d0.bindPopup(popup_935bf92d27ca4a7bb80faf0a5504eac6)
+            ;
+
+            
+        
+    
+            var circle_marker_d48995d615284e9490cf8f6a86f9a67e = L.circleMarker(
+                [31.22222000000005, 121.45806000000005],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c6e9622cfa5b4459a1e157c3aa8c41bd);
+            
+    
+            var popup_59a5424d9dd0409a8d76542fe824b57c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_cfcef99aa1104dbc999ca12a24dacd33 = $(`<div id="html_cfcef99aa1104dbc999ca12a24dacd33" style="width: 100.0%; height: 100.0%;">Huangpu District, Shanghai Cluster 0</div>`)[0];
+                popup_59a5424d9dd0409a8d76542fe824b57c.setContent(html_cfcef99aa1104dbc999ca12a24dacd33);
+            
+
+            circle_marker_d48995d615284e9490cf8f6a86f9a67e.bindPopup(popup_59a5424d9dd0409a8d76542fe824b57c)
+            ;
+
+            
+        
+    
+            var circle_marker_2a9efdc3d2da4d02b1540cdbd2ef91f0 = L.circleMarker(
+                [31.220000000000027, 121.41583000000003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c6e9622cfa5b4459a1e157c3aa8c41bd);
+            
+    
+            var popup_c7aca127f3a34a0cb91615059ff587f9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9e2d3a9a64c94a3897d12cf6e00b0b09 = $(`<div id="html_9e2d3a9a64c94a3897d12cf6e00b0b09" style="width: 100.0%; height: 100.0%;">Jing&#39;an District Cluster 0</div>`)[0];
+                popup_c7aca127f3a34a0cb91615059ff587f9.setContent(html_9e2d3a9a64c94a3897d12cf6e00b0b09);
+            
+
+            circle_marker_2a9efdc3d2da4d02b1540cdbd2ef91f0.bindPopup(popup_c7aca127f3a34a0cb91615059ff587f9)
+            ;
+
+            
+        
+    
+            var circle_marker_2290212b0af447dcab7d14b9ddcf1f39 = L.circleMarker(
+                [31.22222000000005, 121.45806000000005],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c6e9622cfa5b4459a1e157c3aa8c41bd);
+            
+    
+            var popup_8d368db3751f47e9a27b7a0048837b3c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_12a7cb54b0ab495391a505f7d059df6f = $(`<div id="html_12a7cb54b0ab495391a505f7d059df6f" style="width: 100.0%; height: 100.0%;">Gubei, Shanghai Cluster 0</div>`)[0];
+                popup_8d368db3751f47e9a27b7a0048837b3c.setContent(html_12a7cb54b0ab495391a505f7d059df6f);
+            
+
+            circle_marker_2290212b0af447dcab7d14b9ddcf1f39.bindPopup(popup_8d368db3751f47e9a27b7a0048837b3c)
+            ;
+
+            
+        
+    
+            var circle_marker_269a14a26bf946e29979f556f9065d93 = L.circleMarker(
+                [31.22222000000005, 121.45806000000005],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c6e9622cfa5b4459a1e157c3aa8c41bd);
+            
+    
+            var popup_f51ebf734a724fe892ec4a33c00d65be = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6aae1c0cb6e24cd39f38e8add28d7159 = $(`<div id="html_6aae1c0cb6e24cd39f38e8add28d7159" style="width: 100.0%; height: 100.0%;">Gaoqiao, Shanghai Cluster 0</div>`)[0];
+                popup_f51ebf734a724fe892ec4a33c00d65be.setContent(html_6aae1c0cb6e24cd39f38e8add28d7159);
+            
+
+            circle_marker_269a14a26bf946e29979f556f9065d93.bindPopup(popup_f51ebf734a724fe892ec4a33c00d65be)
+            ;
+
+            
+        
+    
+            var circle_marker_93d03fc83e1d461ca4b9df0a3736d96d = L.circleMarker(
+                [31.195940000000064, 121.44709000000012],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c6e9622cfa5b4459a1e157c3aa8c41bd);
+            
+    
+            var popup_043c9f591d704c049a1a24ef080bbd81 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8d11ba92ea724cf8bd87882bfd76ebd4 = $(`<div id="html_8d11ba92ea724cf8bd87882bfd76ebd4" style="width: 100.0%; height: 100.0%;">Xuhui District Cluster 0</div>`)[0];
+                popup_043c9f591d704c049a1a24ef080bbd81.setContent(html_8d11ba92ea724cf8bd87882bfd76ebd4);
+            
+
+            circle_marker_93d03fc83e1d461ca4b9df0a3736d96d.bindPopup(popup_043c9f591d704c049a1a24ef080bbd81)
+            ;
+
+            
+        
+    
+            var circle_marker_8f1a411a2cd445b19f85f55939bcadcf = L.circleMarker(
+                [31.261930000000064, 121.51904000000002],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c6e9622cfa5b4459a1e157c3aa8c41bd);
+            
+    
+            var popup_df4a160c99644adb95c8d1b09c3ea528 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c10fe3c097cb476396abf3698d68f3d4 = $(`<div id="html_c10fe3c097cb476396abf3698d68f3d4" style="width: 100.0%; height: 100.0%;">Yangpu District Cluster 0</div>`)[0];
+                popup_df4a160c99644adb95c8d1b09c3ea528.setContent(html_c10fe3c097cb476396abf3698d68f3d4);
+            
+
+            circle_marker_8f1a411a2cd445b19f85f55939bcadcf.bindPopup(popup_df4a160c99644adb95c8d1b09c3ea528)
+            ;
+
+            
+        
+    
+            var circle_marker_78bdb8bf90b9413f838ac53a8dbc9884 = L.circleMarker(
+                [31.258610000000033, 121.45972000000006],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c6e9622cfa5b4459a1e157c3aa8c41bd);
+            
+    
+            var popup_a3ba0c648fd541fd9680ecc5424df505 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_12959a8b43a246c1acbe95c96b6d017b = $(`<div id="html_12959a8b43a246c1acbe95c96b6d017b" style="width: 100.0%; height: 100.0%;">Zhabei Cluster 0</div>`)[0];
+                popup_a3ba0c648fd541fd9680ecc5424df505.setContent(html_12959a8b43a246c1acbe95c96b6d017b);
+            
+
+            circle_marker_78bdb8bf90b9413f838ac53a8dbc9884.bindPopup(popup_a3ba0c648fd541fd9680ecc5424df505)
+            ;
+
+            
+        
+    
+            var circle_marker_7159ffc85c2840faab57278b86e36c82 = L.circleMarker(
+                [31.22222000000005, 121.45806000000005],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c6e9622cfa5b4459a1e157c3aa8c41bd);
+            
+    
+            var popup_55e8a8383b934ff9b7d45ca25f71794f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6b79ad72f20b4db8ba5624b825c44bab = $(`<div id="html_6b79ad72f20b4db8ba5624b825c44bab" style="width: 100.0%; height: 100.0%;">Baoshan District, Shanghai Cluster 0</div>`)[0];
+                popup_55e8a8383b934ff9b7d45ca25f71794f.setContent(html_6b79ad72f20b4db8ba5624b825c44bab);
+            
+
+            circle_marker_7159ffc85c2840faab57278b86e36c82.bindPopup(popup_55e8a8383b934ff9b7d45ca25f71794f)
+            ;
+
+            
+        
+    
+            var circle_marker_10699e5dbdee4220877aa000f8d4f014 = L.circleMarker(
+                [31.250000000000057, 121.48917000000006],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c6e9622cfa5b4459a1e157c3aa8c41bd);
+            
+    
+            var popup_49b212ce8420478e8eb3d14790bcbe6b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_075b715a21d84af6ab07744d9ad1facd = $(`<div id="html_075b715a21d84af6ab07744d9ad1facd" style="width: 100.0%; height: 100.0%;">Hongkou District Cluster 0</div>`)[0];
+                popup_49b212ce8420478e8eb3d14790bcbe6b.setContent(html_075b715a21d84af6ab07744d9ad1facd);
+            
+
+            circle_marker_10699e5dbdee4220877aa000f8d4f014.bindPopup(popup_49b212ce8420478e8eb3d14790bcbe6b)
+            ;
+
+            
+        
+    
+            var circle_marker_6d664294963746ed8dfde59093f5a69a = L.circleMarker(
+                [31.152670000000057, 121.35688000000005],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c6e9622cfa5b4459a1e157c3aa8c41bd);
+            
+    
+            var popup_ba9e32b9b9624c3282d2d801111980dd = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b76181da76f84b6fbfd391a645bf9fe1 = $(`<div id="html_b76181da76f84b6fbfd391a645bf9fe1" style="width: 100.0%; height: 100.0%;">Qibao Cluster 1</div>`)[0];
+                popup_ba9e32b9b9624c3282d2d801111980dd.setContent(html_b76181da76f84b6fbfd391a645bf9fe1);
+            
+
+            circle_marker_6d664294963746ed8dfde59093f5a69a.bindPopup(popup_ba9e32b9b9624c3282d2d801111980dd)
+            ;
+
+            
+        
+    
+            var circle_marker_4571a4d2896741d4b12d67add78ecbb1 = L.circleMarker(
+                [31.10880000000003, 121.37472000000002],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c6e9622cfa5b4459a1e157c3aa8c41bd);
+            
+    
+            var popup_1814a7de52e246e6913a90f125baf284 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2c8f8d857e0c47fe966d7503d8cc0be2 = $(`<div id="html_2c8f8d857e0c47fe966d7503d8cc0be2" style="width: 100.0%; height: 100.0%;">Minhang District Cluster 1</div>`)[0];
+                popup_1814a7de52e246e6913a90f125baf284.setContent(html_2c8f8d857e0c47fe966d7503d8cc0be2);
+            
+
+            circle_marker_4571a4d2896741d4b12d67add78ecbb1.bindPopup(popup_1814a7de52e246e6913a90f125baf284)
+            ;
+
+            
+        
+    
+            var circle_marker_6417ff25fd774579999f08cd161fd3d5 = L.circleMarker(
+                [31.29979000000003, 121.31180000000006],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c6e9622cfa5b4459a1e157c3aa8c41bd);
+            
+    
+            var popup_ccda454531444f029b68f25a201dced9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c5e31147bb584ce193a5975a75e7130c = $(`<div id="html_c5e31147bb584ce193a5975a75e7130c" style="width: 100.0%; height: 100.0%;">Nanxiang Cluster 1</div>`)[0];
+                popup_ccda454531444f029b68f25a201dced9.setContent(html_c5e31147bb584ce193a5975a75e7130c);
+            
+
+            circle_marker_6417ff25fd774579999f08cd161fd3d5.bindPopup(popup_ccda454531444f029b68f25a201dced9)
+            ;
+
+            
+        
+    
+            var circle_marker_f38db82d985646d4998deaccc92b82cb = L.circleMarker(
+                [31.100270000000023, 121.38565000000006],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c6e9622cfa5b4459a1e157c3aa8c41bd);
+            
+    
+            var popup_377e0f41f2e74131bc39f502a533d018 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b6b634be13b14a10a1ef90c919c2b462 = $(`<div id="html_b6b634be13b14a10a1ef90c919c2b462" style="width: 100.0%; height: 100.0%;">Shanghai County Cluster 1</div>`)[0];
+                popup_377e0f41f2e74131bc39f502a533d018.setContent(html_b6b634be13b14a10a1ef90c919c2b462);
+            
+
+            circle_marker_f38db82d985646d4998deaccc92b82cb.bindPopup(popup_377e0f41f2e74131bc39f502a533d018)
+            ;
+
+            
+        
+    
+            var circle_marker_2262cbbfd5ef48858c4be80de9826f5a = L.circleMarker(
+                [31.37566000000004, 121.49041000000011],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c6e9622cfa5b4459a1e157c3aa8c41bd);
+            
+    
+            var popup_60578d2ca2fe428093ad65439a03db2d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_aeefc6891bc647e9b2a317fde486f9d4 = $(`<div id="html_aeefc6891bc647e9b2a317fde486f9d4" style="width: 100.0%; height: 100.0%;">Wusong Cluster 2</div>`)[0];
+                popup_60578d2ca2fe428093ad65439a03db2d.setContent(html_aeefc6891bc647e9b2a317fde486f9d4);
+            
+
+            circle_marker_2262cbbfd5ef48858c4be80de9826f5a.bindPopup(popup_60578d2ca2fe428093ad65439a03db2d)
+            ;
+
+            
+        
+    
+            var circle_marker_bd80a41363de4bc39045b3bb7560edbb = L.circleMarker(
+                [31.03595000000007, 121.21460000000002],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c6e9622cfa5b4459a1e157c3aa8c41bd);
+            
+    
+            var popup_88daecd146504ce185256432f3d5c98a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c7991d778633419daed1ec8cecc1c2c1 = $(`<div id="html_c7991d778633419daed1ec8cecc1c2c1" style="width: 100.0%; height: 100.0%;">Songjiang Town Cluster 2</div>`)[0];
+                popup_88daecd146504ce185256432f3d5c98a.setContent(html_c7991d778633419daed1ec8cecc1c2c1);
+            
+
+            circle_marker_bd80a41363de4bc39045b3bb7560edbb.bindPopup(popup_88daecd146504ce185256432f3d5c98a)
+            ;
+
+            
+        
+    
+            var circle_marker_d535298ad4f749989aee9aafea0b683e = L.circleMarker(
+                [31.024740000000065, 121.67880000000002],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c6e9622cfa5b4459a1e157c3aa8c41bd);
+            
+    
+            var popup_893f5aed3b334feba098836012cc1c00 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7db50b4b871844fc928a9dfa80e1181e = $(`<div id="html_7db50b4b871844fc928a9dfa80e1181e" style="width: 100.0%; height: 100.0%;">Xintiandi Cluster 2</div>`)[0];
+                popup_893f5aed3b334feba098836012cc1c00.setContent(html_7db50b4b871844fc928a9dfa80e1181e);
+            
+
+            circle_marker_d535298ad4f749989aee9aafea0b683e.bindPopup(popup_893f5aed3b334feba098836012cc1c00)
+            ;
+
+            
+        
+    
+            var circle_marker_66540efd38e541718f7c7c0d25f8442c = L.circleMarker(
+                [31.03595000000007, 121.21460000000002],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c6e9622cfa5b4459a1e157c3aa8c41bd);
+            
+    
+            var popup_5a0c23d36709468a81f1c1849b36fa83 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c79fd4ab645c4a2e84755baf35816c77 = $(`<div id="html_c79fd4ab645c4a2e84755baf35816c77" style="width: 100.0%; height: 100.0%;">Songjiang District Cluster 2</div>`)[0];
+                popup_5a0c23d36709468a81f1c1849b36fa83.setContent(html_c79fd4ab645c4a2e84755baf35816c77);
+            
+
+            circle_marker_66540efd38e541718f7c7c0d25f8442c.bindPopup(popup_5a0c23d36709468a81f1c1849b36fa83)
+            ;
+
+            
+        
+    
+            var circle_marker_dd61d73f883f47668be887561bfc8a26 = L.circleMarker(
+                [31.190000000000055, 121.43194000000005],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c6e9622cfa5b4459a1e157c3aa8c41bd);
+            
+    
+            var popup_125677befd1b437ca917ad4b1d0d77e8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ac0d4392027e4889b189573c1e78d9a7 = $(`<div id="html_ac0d4392027e4889b189573c1e78d9a7" style="width: 100.0%; height: 100.0%;">Xujiahui Cluster 2</div>`)[0];
+                popup_125677befd1b437ca917ad4b1d0d77e8.setContent(html_ac0d4392027e4889b189573c1e78d9a7);
+            
+
+            circle_marker_dd61d73f883f47668be887561bfc8a26.bindPopup(popup_125677befd1b437ca917ad4b1d0d77e8)
+            ;
+
+            
+        
+    
+            var circle_marker_06f87c44e80049f38d62454e618d4605 = L.circleMarker(
+                [31.031880000000058, 121.75906000000009],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c6e9622cfa5b4459a1e157c3aa8c41bd);
+            
+    
+            var popup_2ab853ba51364242b5388d4ce866025d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_56b7415e7c054e149468d6201b496ddc = $(`<div id="html_56b7415e7c054e149468d6201b496ddc" style="width: 100.0%; height: 100.0%;">Nanhui District Cluster 2</div>`)[0];
+                popup_2ab853ba51364242b5388d4ce866025d.setContent(html_56b7415e7c054e149468d6201b496ddc);
+            
+
+            circle_marker_06f87c44e80049f38d62454e618d4605.bindPopup(popup_2ab853ba51364242b5388d4ce866025d)
+            ;
+
+            
+        
+    
+            var circle_marker_a39f814f6b264f6cacfe64062142a966 = L.circleMarker(
+                [31.20908000000003, 121.4633500000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c6e9622cfa5b4459a1e157c3aa8c41bd);
+            
+    
+            var popup_1938b7e4960d428ca22863a1c384090f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b699360c41384a9a8d3dd162b30f1e88 = $(`<div id="html_b699360c41384a9a8d3dd162b30f1e88" style="width: 100.0%; height: 100.0%;">Luwan District Cluster 2</div>`)[0];
+                popup_1938b7e4960d428ca22863a1c384090f.setContent(html_b699360c41384a9a8d3dd162b30f1e88);
+            
+
+            circle_marker_a39f814f6b264f6cacfe64062142a966.bindPopup(popup_1938b7e4960d428ca22863a1c384090f)
+            ;
+
+            
+        
+    
+            var circle_marker_8a59d6034f9b43b99164fe447047c265 = L.circleMarker(
+                [30.79141000000004, 121.34888000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c6e9622cfa5b4459a1e157c3aa8c41bd);
+            
+    
+            var popup_ea824ebb2c2d4b85aebad8b643669d5f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c4fcd5f5d86241a2aff93e88673a5ce4 = $(`<div id="html_c4fcd5f5d86241a2aff93e88673a5ce4" style="width: 100.0%; height: 100.0%;">Lujiazui Cluster 2</div>`)[0];
+                popup_ea824ebb2c2d4b85aebad8b643669d5f.setContent(html_c4fcd5f5d86241a2aff93e88673a5ce4);
+            
+
+            circle_marker_8a59d6034f9b43b99164fe447047c265.bindPopup(popup_ea824ebb2c2d4b85aebad8b643669d5f)
+            ;
+
+            
+        
+    
+            var circle_marker_0fb7ec92df384558b01ce3302e7227ea = L.circleMarker(
+                [31.366370000000074, 121.22153000000003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c6e9622cfa5b4459a1e157c3aa8c41bd);
+            
+    
+            var popup_bf4380e095dd4d1b9828517312021be5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_62430a0bf0c4432d8e50eb9e78cc1166 = $(`<div id="html_62430a0bf0c4432d8e50eb9e78cc1166" style="width: 100.0%; height: 100.0%;">Jiading District Cluster 2</div>`)[0];
+                popup_bf4380e095dd4d1b9828517312021be5.setContent(html_62430a0bf0c4432d8e50eb9e78cc1166);
+            
+
+            circle_marker_0fb7ec92df384558b01ce3302e7227ea.bindPopup(popup_bf4380e095dd4d1b9828517312021be5)
+            ;
+
+            
+        
+    
+            var circle_marker_6f82221c94dd4e75af2c11cc51623235 = L.circleMarker(
+                [30.833810000000028, 121.52128000000005],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c6e9622cfa5b4459a1e157c3aa8c41bd);
+            
+    
+            var popup_8aa8db2359984fb98c0da9821cc72bb5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f86f65160c2d48e0b77f1ed179ef61cd = $(`<div id="html_f86f65160c2d48e0b77f1ed179ef61cd" style="width: 100.0%; height: 100.0%;">Fengxian District Cluster 2</div>`)[0];
+                popup_8aa8db2359984fb98c0da9821cc72bb5.setContent(html_f86f65160c2d48e0b77f1ed179ef61cd);
+            
+
+            circle_marker_6f82221c94dd4e75af2c11cc51623235.bindPopup(popup_8aa8db2359984fb98c0da9821cc72bb5)
+            ;
+
+            
+        
+    
+            var circle_marker_064aa1951086471fa6260afe032f6cff = L.circleMarker(
+                [31.116700000000037, 121.12902000000008],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c6e9622cfa5b4459a1e157c3aa8c41bd);
+            
+    
+            var popup_dc29d19a9e9241baaacfd9ffce71ea81 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b5d81cb7ea984e458aa06af448a4de32 = $(`<div id="html_b5d81cb7ea984e458aa06af448a4de32" style="width: 100.0%; height: 100.0%;">Fengjing Cluster 2</div>`)[0];
+                popup_dc29d19a9e9241baaacfd9ffce71ea81.setContent(html_b5d81cb7ea984e458aa06af448a4de32);
+            
+
+            circle_marker_064aa1951086471fa6260afe032f6cff.bindPopup(popup_dc29d19a9e9241baaacfd9ffce71ea81)
+            ;
+
+            
+        
+    
+            var circle_marker_2bd8c54c02d54c11aea2f0afc592f2a5 = L.circleMarker(
+                [31.477130000000045, 121.36461000000008],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c6e9622cfa5b4459a1e157c3aa8c41bd);
+            
+    
+            var popup_43def2e6277b4dd38fecae85368df85e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5de72bf2699942719ed768cb9a9c5161 = $(`<div id="html_5de72bf2699942719ed768cb9a9c5161" style="width: 100.0%; height: 100.0%;">Chuansha County Cluster 2</div>`)[0];
+                popup_43def2e6277b4dd38fecae85368df85e.setContent(html_5de72bf2699942719ed768cb9a9c5161);
+            
+
+            circle_marker_2bd8c54c02d54c11aea2f0afc592f2a5.bindPopup(popup_43def2e6277b4dd38fecae85368df85e)
+            ;
+
+            
+        
+    
+            var circle_marker_5b4a08386257466785392e08483f69df = L.circleMarker(
+                [31.63318000000004, 121.46795000000009],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c6e9622cfa5b4459a1e157c3aa8c41bd);
+            
+    
+            var popup_99c3e26abff442beb585786694083c0c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_164d6618dca24699a216c2851feee1ff = $(`<div id="html_164d6618dca24699a216c2851feee1ff" style="width: 100.0%; height: 100.0%;">Chongming District Cluster 2</div>`)[0];
+                popup_99c3e26abff442beb585786694083c0c.setContent(html_164d6618dca24699a216c2851feee1ff);
+            
+
+            circle_marker_5b4a08386257466785392e08483f69df.bindPopup(popup_99c3e26abff442beb585786694083c0c)
+            ;
+
+            
+        
+    
+            var circle_marker_68a7f8901d2746a3b8b903f1e3abc478 = L.circleMarker(
+                [30.916040000000066, 121.15409000000011],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c6e9622cfa5b4459a1e157c3aa8c41bd);
+            
+    
+            var popup_62a2302abe5349d192468df8d3d395a8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_71165d4264954ca9977bfefb2a788609 = $(`<div id="html_71165d4264954ca9977bfefb2a788609" style="width: 100.0%; height: 100.0%;">Changshou Road Subdistrict Cluster 2</div>`)[0];
+                popup_62a2302abe5349d192468df8d3d395a8.setContent(html_71165d4264954ca9977bfefb2a788609);
+            
+
+            circle_marker_68a7f8901d2746a3b8b903f1e3abc478.bindPopup(popup_62a2302abe5349d192468df8d3d395a8)
+            ;
+
+            
+        
+    
+            var circle_marker_2e427364f27449f2a06b0780d6c041b3 = L.circleMarker(
+                [31.217390000000023, 121.42105000000004],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c6e9622cfa5b4459a1e157c3aa8c41bd);
+            
+    
+            var popup_bfad9347c1084250a1562a1e6f243181 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f0cc71b5f889473c82451a464d4eb145 = $(`<div id="html_f0cc71b5f889473c82451a464d4eb145" style="width: 100.0%; height: 100.0%;">Changning District Cluster 2</div>`)[0];
+                popup_bfad9347c1084250a1562a1e6f243181.setContent(html_f0cc71b5f889473c82451a464d4eb145);
+            
+
+            circle_marker_2e427364f27449f2a06b0780d6c041b3.bindPopup(popup_bfad9347c1084250a1562a1e6f243181)
+            ;
+
+            
+        
+    
+            var circle_marker_a909d605d2984b2fbb1ad8beecf51428 = L.circleMarker(
+                [31.153940000000034, 121.11408000000006],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c6e9622cfa5b4459a1e157c3aa8c41bd);
+            
+    
+            var popup_0a7f70a3c0ac4c46991cacf22428fee1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b14bf28e44ba4383ad2addc8f7f854dd = $(`<div id="html_b14bf28e44ba4383ad2addc8f7f854dd" style="width: 100.0%; height: 100.0%;">Qingpu District Cluster 2</div>`)[0];
+                popup_0a7f70a3c0ac4c46991cacf22428fee1.setContent(html_b14bf28e44ba4383ad2addc8f7f854dd);
+            
+
+            circle_marker_a909d605d2984b2fbb1ad8beecf51428.bindPopup(popup_0a7f70a3c0ac4c46991cacf22428fee1)
+            ;
+
+            
+        
+    
+            var circle_marker_5660b8a50e1f4edd84410a9d9c0925d9 = L.circleMarker(
+                [31.107570000000067, 121.05696000000012],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_c6e9622cfa5b4459a1e157c3aa8c41bd);
+            
+    
+            var popup_68f4702acb394a16b12fd3af07a0af56 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_76b809dc023a49dfba7559f017e84033 = $(`<div id="html_76b809dc023a49dfba7559f017e84033" style="width: 100.0%; height: 100.0%;">Zhujiajiao Cluster 2</div>`)[0];
+                popup_68f4702acb394a16b12fd3af07a0af56.setContent(html_76b809dc023a49dfba7559f017e84033);
+            
+
+            circle_marker_5660b8a50e1f4edd84410a9d9c0925d9.bindPopup(popup_68f4702acb394a16b12fd3af07a0af56)
+            ;
+
+            
+        
+</script>
