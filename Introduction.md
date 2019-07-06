@@ -10,12 +10,12 @@ This project will definitely interest property investors and differents corparat
 
 ## 3. Data Source
 Data sources below will be used for approaching this project:  
-* [List of districts in Shanghai](https://en.wikipedia.org/wiki/Category:Districts_of_Shanghai)
-* Latitude and longitude coordinates of the neighbourhoods in different districts of Shanghai from [GeoPy](https://geopy.readthedocs.io/en/stable/)
+* [List of neighbourhoods of Shanghai](https://en.wikipedia.org/wiki/Category:Neighbourhoods_of_Shanghai)
+* Latitude and longitude coordinates of the neighbourhoods in different neighbourhoods of Shanghai from [GeoPy](https://geopy.readthedocs.io/en/stable/)
 * Venue data from [Foursquare](https://fr.foursquare.com/city-guide)
 
 ## 4. Methodology
-Data science techniques will be applied for building datasets from the webpage of Shanghai districts, which contains data preprocessing skills like web scraping, data cleaning and data formating.  
+Data science techniques will be applied for building datasets from the webpage of Shanghai neighbourhoods, which contains data preprocessing skills like web scraping, data cleaning and data formating.  
 
 Then the geographical coordinates of the neighbourhoods could be generated from neighbourhood names by GeoPy. Using the API of Foursquare application, venue data could be reached.  
 
