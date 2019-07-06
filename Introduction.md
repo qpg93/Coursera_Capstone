@@ -6,7 +6,7 @@ Shanghai is now rising up as one of the largest cities in East Asia. The populat
 This capstone project of IBM Data Science aims at analyzing and selecting the best location in Shanghai to open a new commercial center. With the help of data science techniques, good places with less business units but larger resident amount, which means larger business potential, will be located in the city of Shanghai.
 
 ## 2. Target Reader
-This project will definitely interest property investors and differents corparations.
+This project will definitely interest property investors and different corporations.
 
 ## 3. Data Source
 Data sources below will be used for approaching this project:  
