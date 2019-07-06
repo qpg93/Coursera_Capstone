@@ -11,6 +11,7 @@ This project will definitely interest property investors and differents corparat
 ## 3. Data Source
 Data sources below will be used for approaching this project:  
 * [List of neighbourhoods of Shanghai](https://en.wikipedia.org/wiki/Category:Neighbourhoods_of_Shanghai)
+* [List of districts of Shanghai](https://en.wikipedia.org/wiki/Category:Districts_of_Shanghai)
 * Latitude and longitude coordinates of the neighbourhoods in different neighbourhoods of Shanghai from [GeoPy](https://geopy.readthedocs.io/en/stable/)
 * Venue data from [Foursquare](https://fr.foursquare.com/city-guide)
 
